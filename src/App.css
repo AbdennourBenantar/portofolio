@@ -39,3 +39,7 @@
 .container{
   max-width: 90%;
 }
+ul,li{
+  list-style: none;
+}
+

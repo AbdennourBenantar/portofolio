@@ -3,6 +3,8 @@ import './App.css';
 import './App.sass';
 import avatar from './assets/myAvatar.png';
 import hero from './assets/hero.svg';
+import android from './assets/android.svg';
+import web from './assets/web.svg';
 function App() {
   return <div>
     <nav className="navbar is-transparent " role="navigation" aria-label="main navigation">
@@ -58,6 +60,47 @@ function App() {
             <h2 className="subtitle is-size-5-desktop">
             Still learning, but learning fast, I was able to pass from a simple user of computers to an enthousiast of everything that turns around it, now i have great vision of what a man can do with a computer , and how can the world be affected by the revolution of this technology, so yes this is becoming my field of study: Computer Engineering at ESI the Higher National School of Computer Engineering ,algiers, Algeria. I am a front-end developer who enjoys building beautifully simple and fluid UI's. Trust me, We can do art ;)
             </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section className="section skills has-text-centered">
+      <div className="container is-narrow">
+        <div className="box">
+          <div className="content">
+            <div className="columns is-centered">
+              <div className="column">
+                <figure className="image">
+                  <img className="image is-64x64" src={android}/>
+                </figure>
+                <h1 className="title is-size-4 is-spaced">Mobile Developer</h1>
+                <p>I like turning any idea into reality in the mobile since it is obviously the most used device nowadays by everyone</p>
+                <p className="list-title has-text-primary has-text-weight-normal">Languages I speak:</p>
+                <p>React Native, Flutter, JAVA</p>
+                <p className="list-title  has-text-primary has-text-weight-normal">Tools I use:</p>
+                <ul>
+                  <li>Android Studio</li>
+                  <li>Intellij IDEA</li>
+                  <li>Visual Studio code</li>
+                </ul>
+              </div>
+              <div className="column">
+                <figure className="image">
+                  <img className="image is-64x64" src={web}/>
+                </figure>
+                <h1 className="title is-size-4 is-spaced">Web front-end Developer</h1>
+                <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+                <p className="list-title has-text-primary has-text-weight-normal is-centered">Languages I speak:</p>
+                <p>JavaScript, ReactJS, JQuery, HTML, CSS, Bulma, Bootstrap, Sass</p>
+                <p className="list-title  has-text-primary has-text-weight-normal is-centered">Dev Tools:</p>
+                <ul>
+                  <li>Visual Studio</li>
+                  <li>Chrome</li>
+                  <li>Github</li>
+                  <li>Codepen</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
