@@ -42,4 +42,6 @@
 ul,li{
   list-style: none;
 }
-
+.animate-fadeUp{
+  animation: fadeIn 2s, translate-up 1s;
+}
